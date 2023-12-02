@@ -7,6 +7,7 @@ import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PipeCostumizavelComponent } from './pipe-costumizavel/pipe-costumizavel.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PipeCostumizavelComponent } from './pipe-costumizavel/pipe-costumizavel
     PrimeiroComponenteComponent,
     SegundoComponenteComponent,
     MultiplicaPorPipe,
-    PipeCostumizavelComponent
+    PipeCostumizavelComponent,
+    TwoWayDataBindingComponent
   ],
   imports: [
     BrowserModule,
